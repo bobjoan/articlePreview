@@ -16,7 +16,11 @@
     <div class="container">
       <div class="row">
         <div class="col-6">
-          <img src="/images/drawers.jpg" width="100%" />
+          <img
+            src="/images/drawers.jpg"
+            width="100%"
+            style="border-top-left-radius: 10px; border-top-right-radius: 10px"
+          />
         </div>
         <div id="message" class="col-6">
           <h2>
@@ -29,12 +33,30 @@
             help you make any room feel complete.
           </p>
         </div>
-        <span class="author">
-          <img src="/images/avatar-michelle.jpg" width="10%" />
-          <h2>Michelle Appleton</h2>
-          <p>28 June 2020</p>
-        </span>
+        <div class="footer">
+          <div class="author">
+            <img src="/images/avatar-michelle.jpg" width="10%" />
+            <div class="author-info">
+              <h4>Michelle Appleton</h4>
+              <p class="date">28 June, 2020</p>
+            </div>
+          </div>
+          <div class="share-icon">
+            <img src="/images/icon-share.svg" />
+          </div> 
+          <div class="share-icons-container">
+          <div class="share-icons hidden" id="share">
+            <div class="arrow"></div>
+            <p>SHARE</p>
+            <div class="share-icons-inner">
+            <a href="#"><img src="/images/icon-facebook.svg" /></a>
+            <a href="#"><img src="/images/icon-twitter.svg" /></a>
+            <a href="#"><img src="/images/icon-pinterest.svg" /></a>
+          </div>
+          </div>
+          </div>
       </div>
     </div>
   </body>
+  <script src="index.js"></script>
 </html>
